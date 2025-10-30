@@ -182,14 +182,15 @@ button:hover{
     color: #230A01;
     display: flex;
     flex-direction: column;
-    padding-left: 4rem;
     padding-top: 8rem;
-    padding-right: 4rem;
 }
 .thirdsection header{
     display: flex;
     flex-direction: row;
+    align-items: flex-end;
     gap: 15rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
 }
 .shortstory{
     display: flex;
@@ -202,16 +203,90 @@ button:hover{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     letter-spacing: 0;
     font-size: 18px;
-    width: 35rem;
+    width: 30rem;
 }
 .button3{
     width: 10rem;
-    height: 2rem;
+    height: 2.5rem;
     background-color: transparent;
     border: 1px solid #230A01;
-    border-radius: 3px;
+    border-radius: 6px;
 }
 .artist{
     width: 400px;
-    height: 400px;
+    height: auto;
+}
+.middlepart{
+    background: url(/media.svg/curve\ bg.png);
+    background-size:cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4rem;
+    width: 100%;
+    height: fit-content;
+    padding-top: 13rem;
+    margin-bottom: 3rem;
+    padding-bottom: 13rem;
+    margin-top: 3rem;
+    color: #230A01;
+}
+.excellence p{
+    font-size: 35px;
+}
+.excellence{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.middlepart h2{
+    font-size: 40px;
+}
+.lineargradient{
+    height: 18rem;
+    width: 1.5rem;
+    background-color: aqua;
+    border-radius: 20px;
+}
+.circle{
+    font-size: 25px;
+    height: 9rem;
+    width: 10rem;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    border: 20px solid yellow;
+}
+.firstedge{
+    width: 90%;
+    padding-left: 4rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 6rem;
+}
+.promotions div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.promotions{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+.iconsimg{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.follow{
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
 }
